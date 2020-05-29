@@ -18,4 +18,5 @@ runs:
     - ${{ inputs.sonar_token}}
     - ${{ inputs.install_deps}}
     - ${{ inputs.cmake_build_type}}
+    - ${{ inputs.github_token}}
 
