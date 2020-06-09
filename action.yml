@@ -11,6 +11,9 @@ inputs:
   cmake_build_type:
     description: 'cmake build type like Debug|Release'
     required: false 
+  github_token:
+    description: 'github access token'
+    required: true 
 runs:
   using: 'docker'
   image: 'Dockerfile'
