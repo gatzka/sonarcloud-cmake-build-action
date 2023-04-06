@@ -21,7 +21,7 @@ unzip -qq build-wrapper-linux-x86.zip
 export PATH=$PATH:`pwd`/build-wrapper-linux-x86/
 wget --quiet https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.8.0.2856.zip
 unzip -qq sonar-scanner-cli-4.8.0.2856.zip
-export PATH=$PATH:`pwd`/sonar-scanner-4.2.0.1873-linux/bin/
+export PATH=$PATH:`pwd`/sonar-scanner-4.8.0.2856/bin/
 
 cmake . ${CMAKE_OPTIONS}
 build-wrapper-linux-x86-64 --out-dir bw-output cmake --build .
